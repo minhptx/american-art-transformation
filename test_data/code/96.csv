@@ -1,0 +1,9 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("PersonID"):
+	    return "person/"+getValue("PersonID")
+	elif getValue("InstitutionID"):
+	    return "institution/"+getValue("InstitutionID")
+	else:
+	    return ""

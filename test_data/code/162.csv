@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("Title"):
+	    return UM.uri_from_fields("object/title/", getValue("Title"))
+	else:
+	    return ''

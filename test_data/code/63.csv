@@ -1,0 +1,6 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("DateBegin") == 0:
+	    return ''
+	return getValue("DateBegin")+"-01-01"

@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("BirthYear") != '':
+	    return getValue("BirthYear") + "-01-01"
+	else:
+	    return ''

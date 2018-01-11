@@ -1,0 +1,8 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("SitterConstituentID"):
+	    return "http://vocab.getty.edu/aat/300404670"
+	else:
+	    return ''
+	

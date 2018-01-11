@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("Owner"):
+	    return UM.uri_from_fields("object/owner/", getValue("Owner"))
+	else:
+	    return ''

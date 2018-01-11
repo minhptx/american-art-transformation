@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("Death Year ") == '':
+	    return ""
+	else:
+	     return getValue("ConstituentURI")+"/death_year"

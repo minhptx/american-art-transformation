@@ -1,0 +1,4 @@
+def transform(a):
+	global x
+	x = a
+	return "National Museum of Wildlife Art"

@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("BeginDateValid"):
+	    return getValue("BeginDateValid") + " to " + getValue("EndDateValid")
+	else:
+	    return ""

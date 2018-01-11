@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("Measurements"):
+	    return "http://vocab.getty.edu/aat/300266036"
+	else:
+	    return ''

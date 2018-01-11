@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("PlaceOfDeath"):
+	    return getValue("DeathEventURI") + "/death_location_class"
+	else:
+	    return ''

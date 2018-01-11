@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("ThesXrefType") in ["Place depicted","Portrait Objects", "Related Place"]:
+	    return UM.uri_from_fields("thesauri/subject/",getValue("Term"))
+	else:
+	    return ""

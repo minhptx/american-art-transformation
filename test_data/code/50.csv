@@ -1,0 +1,8 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("SitterConstituentID"):
+	    return getValue("SitterConstituentURI") + "/preferred_id"
+	else:
+	    return ''
+	

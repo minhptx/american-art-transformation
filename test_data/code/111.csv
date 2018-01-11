@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("FirstName"):
+	    return getValue("NameCompositionURI")+"/first_name"
+	else:
+	    return ""

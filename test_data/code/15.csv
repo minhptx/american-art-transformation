@@ -1,0 +1,9 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("Birth Year") == '':
+	    return ""
+	elif '/' in getValue("Birth Year"):
+	    return getValue("Birth Year")
+	else:
+	    return  getValue("Birth Year")+"-12-31"

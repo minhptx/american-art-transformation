@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("PublicDescription"):
+	    return getValue("ObjectURI")+"/description"
+	else:
+	    return ""

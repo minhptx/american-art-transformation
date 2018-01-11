@@ -1,0 +1,17 @@
+def transform(a):
+	global x
+	x = a
+	time = getValue("Dates").replace(' ', '').lower()
+	dash_index = time.find('-')
+	
+	if (time == 'NULL') or ('founded' in time) or ('circa' in time) or ('active' in time) or ('established' in time):
+	    return ''
+	
+	if 'born' in time:
+	    born_index = time.find('born')
+	    return time[born_index + 4: born_index + 9]
+	
+	if dash_index != -1:
+	    return time[dash_index-4:dash_index]
+	
+	return ''

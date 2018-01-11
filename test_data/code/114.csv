@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("Object_URL"):
+	    return "http://"+getValue("Object_URL")
+	else:
+	    return ""

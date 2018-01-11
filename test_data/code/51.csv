@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("Prefix") in ["Artist:", "Lithographer:", "Author:"]:
+	    return getValue("ConstituentID")
+	else:
+	    return ''

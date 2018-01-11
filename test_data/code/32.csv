@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("DisplayOrder") == '1':
+	    return "http://vocab.getty.edu/aat/300404670"
+	else:
+	    return ''

@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("ThesXrefType")=="Other Classification":
+	    return getValue("Term")
+	else:
+	    return ""

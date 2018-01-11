@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("CreditLine"):
+	    return getValue("ObjectURI")+"/credit_line"
+	else:
+	    return ""

@@ -1,0 +1,8 @@
+def transform(a):
+	global x
+	x = a
+	e = str(getValue("DATE_EARLIEST"))
+	if len(e) == 4:
+	    return e+"-12-31"
+	else:
+	    return ""

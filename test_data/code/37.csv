@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("ThesXrefType") == "Place of birth":
+	    return getValue("Term")
+	else:
+	    return ''

@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("Gender"):
+	    return UM.uri_from_fields("thesauri/gender/", getValue("Gender"))
+	else:
+	    return ''

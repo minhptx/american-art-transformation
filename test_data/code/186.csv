@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("DateBegin")!="0" or getValue("ArtistURI") or getValue("SubjectURI"):
+	    return getValue("ObjectURI")+"/production"
+	else:
+	    return ""

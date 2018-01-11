@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("DateDescription") == "Birth Date":
+	    return getValue("DateBegSearch") + "-12-31"
+	else:
+	    return ""

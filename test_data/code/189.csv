@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("Role") in ['Artist','Author','Engraver'] and getValue("DisplayName"):
+	    return "constituent/"+SM.fingerprint_string(getValue(("DisplayName")))
+	else:
+	    return ""

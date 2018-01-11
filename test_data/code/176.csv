@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("ConstituentBeginDate") and getValue("ConstituentBeginDate")!="0":
+	    return getValue("ConstituentURI")+"/birth"
+	else:
+	    return ""

@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("ConstituentEndDate"):
+	    return getValue("DeathURI")+"/death_year"
+	else:
+	    return ""

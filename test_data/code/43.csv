@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("PlaceOfBirth"):
+	    return getValue("BirthEventURI") + "/birth_location_class"
+	else:
+	    return ''

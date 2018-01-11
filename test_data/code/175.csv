@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("DisplayName"):
+	    return "constituent/"+SM.fingerprint_string(getValue("DisplayName"))
+	else:
+	    return ""

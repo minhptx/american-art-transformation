@@ -1,0 +1,12 @@
+def transform(a):
+	global x
+	x = a
+	d = getValue("DisplayDate")
+	if '-' in d:
+	    return d[:d.index('-')]
+	else:
+	    if "born" in d:
+	        return d
+	    else:
+	        return ""
+	

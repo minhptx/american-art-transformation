@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("TimeSpanURI") or getValue("ActorURI"):
+	  return getValue("ObjectURI")+"/production"
+	else:
+	  return ""

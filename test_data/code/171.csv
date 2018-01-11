@@ -1,0 +1,4 @@
+def transform(a):
+	global x
+	x = a
+	return AATTerm.get_aat_term("gm",getValue("Classification"))

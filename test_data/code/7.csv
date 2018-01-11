@@ -1,0 +1,7 @@
+def transform(a):
+	global x
+	x = a
+	if getValue("Begin Date")!='0': 
+	    return getValue("Begin Date") + "-12-31"
+	else:
+	    return ""
