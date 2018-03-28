@@ -1,4 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	return AATTerm.get_aat_term("gm",getValue("Classification"))
+	return UM.uri_from_fields(getValue("ObjectURI")+"/title/",getValue("Title"))

@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("MiddleName"):
-	    return getValue("NameCompositionURI")+"/middle_name"
-	else:
-	    return ""
+	return getValue("URI")+"/birth/time"

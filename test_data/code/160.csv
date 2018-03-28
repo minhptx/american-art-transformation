@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("CreditLine"):
-	    return getValue("ObjectURI")+"/credit_line"
-	else:
-	    return ''
+	return UM.uri_from_fields("thesauri/gender/",getValue("Gender"))

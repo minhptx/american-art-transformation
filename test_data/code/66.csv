@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DateBegin")=="0" and getValue("DateEnd")=="0":
-	    return ""
-	else:
-	    return getValue("ProductionURI") + "/timespan"
+	return 'constituent/id/'+getValue("ConstituentID")

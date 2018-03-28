@@ -1,8 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("MakerConstituentID"):
-	    return getValue("MakerConstituentURI") + "/preferred_id"
-	else:
-	    return ''
-	
+	return "constituent/id/"+getValue("ConstituentID")

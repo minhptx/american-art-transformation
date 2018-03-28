@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("EARLIEST_YEAR"):
-	    return getValue("EARLIEST_YEAR") + "-01-01"
-	else:
-	    return ""
+	return"thesauri/name_type/last_name"

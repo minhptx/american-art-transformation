@@ -1,12 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("ThesXrefType")=="Other Classification":
-	    v = getValue("Term")
-	    try:
-	        uri = AATTerm.get_aat_uri("npg",v)
-	        return uri
-	    except:
-	        return UM.uri_from_fields("thesauri/type/",v)
-	else:
-	    return ""
+	return getValue("ObjectURI")+"/obj_no"

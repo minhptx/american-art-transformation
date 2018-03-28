@@ -1,8 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Prefix") == "Sitter:":
-	    return getValue("ConstituentID")
-	else:
-	    return ''
-	
+	return UM.uri_from_fields("person-institution/", getValue("ConstituentID"))

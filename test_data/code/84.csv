@@ -1,9 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	name = getValue("FirstName") + " " + getValue("LastName")
-	if getValue("NameTitle"):
-	    name = getValue("NameTitle") + " " + name
-	if getValue("Suffix"):
-	    name = name + " " + getValue("Suffix")
-	return name
+	return getValue("BirthURI")+"/time"

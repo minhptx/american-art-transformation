@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("PlaceOfBirth"):
-	    return getValue("BirthEventURI") + "/birth_location_class"
-	else:
-	    return ''
+	return UM.uri_from_fields("thesauri/dimension_type/",getValue("DimensionType"))

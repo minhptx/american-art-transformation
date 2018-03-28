@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("MakerConstituentID"):
-	    return UM.uri_from_fields("person-institution/", getValue("MakerConstituentID"))
-	else:
-	    return ''
+	return "object/"+getValue("Object ID")

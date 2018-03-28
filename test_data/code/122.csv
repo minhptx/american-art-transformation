@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("WEIGHT"):
-	    return getValue("PartURI")+"/dimension/weight"
-	else:
-	    return ""
+	return getValue("ConstituentURI")+"/alpha_sort"

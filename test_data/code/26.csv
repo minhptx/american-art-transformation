@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("ThesXrefType")=="Execution place":
-	    return UM.uri_from_fields("thesauri/place/",getValue("Term"))
-	else:
-	    return ""
+	return UM.uri_from_fields("person-institution/", getValue("ConstituentID"))

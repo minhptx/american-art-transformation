@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DateDescription") == "Death Date":
-	    return getValue("ConstituentURI")+'/death'
-	else:
-	    return ""
+	return getValue("ConstituentURI")+"/primary_name"

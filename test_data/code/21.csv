@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Birth place"):
-	    return UM.uri_from_fields("thesauiri/location/",getValue("Birth place"))
-	else:
-	    return ""
+	return UM.uri_from_fields("object/", getValue("ObjectID"))

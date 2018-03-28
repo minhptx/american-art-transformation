@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if AATTerm.get_aat_uri("gm",getValue("Classification")):
-	    return AATTerm.get_aat_uri("gm",getValue("Classification"))
-	else:
-	    return UM.uri_from_fields("thesauri/classification/",getValue("Classification"))
+	return "Dallas Museum of Art"

@@ -1,4 +1,0 @@
-def transform(a):
-	global x
-	x = a
-	return UM.uri_from_fields("thesauri/classification/",getValue("ClassificationObject"))

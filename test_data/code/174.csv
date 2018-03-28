@@ -1,4 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	return getValue("ObjectURI")+"/classification_event"
+	return getValue("Medium").strip()

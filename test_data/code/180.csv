@@ -1,7 +1,0 @@
-def transform(a):
-	global x
-	x = a
-	if getValue("ConstituentBeginDate"):
-	    return getValue("ConstituentBeginDate")+"-12-31"
-	else:
-	    return ""

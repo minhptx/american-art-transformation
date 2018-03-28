@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DeathYear") != '':
-	    return getValue("DeathYear") + "-12-31"
-	else:
-	    return ''
+	return "thesauri/name_type/middle_name"

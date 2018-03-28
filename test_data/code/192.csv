@@ -1,7 +1,0 @@
-def transform(a):
-	global x
-	x = a
-	if getValue("DateEnd")!="0":
-	    return getValue("DateBegin") + "-01-01"
-	else:
-	    ""

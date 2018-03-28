@@ -1,4 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	return getValue("ObjectURI")+"/classification"
+	return "http://vocab.getty.edu/aat/300404670"

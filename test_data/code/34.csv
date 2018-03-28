@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DisplayOrder") == '1':
-	    return getValue("Title")
-	else:
-	    return ''
+	return UM.uri_from_fields("object/preferred_id/", getValue("ObjectNumber"))

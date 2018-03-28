@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DIAMETER"):
-	    return getValue("PartURI")+"/dimension/diameter"
-	else:
-	    return ""
+	return getValue("ConstituentURI")+"/name"

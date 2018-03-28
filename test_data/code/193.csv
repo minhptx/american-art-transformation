@@ -1,7 +1,0 @@
-def transform(a):
-	global x
-	x = a
-	if getValue("Dated")!="n.d.":
-	    return getValue("Dated")
-	else:
-	    ""

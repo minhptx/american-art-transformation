@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("PlaceOfBirth"):
-	    return getValue("ConstituentURI") + "/birth_event"
-	else:
-	    return ''
+	return getValue("PartURI")+"/dimension/"+getValue("DimensionID")

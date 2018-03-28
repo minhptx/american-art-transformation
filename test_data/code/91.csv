@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Suffix"):
-	    return getValue("URI")+"/suffix"
-	else:
-	    return ""
+	return getValue("URI")+'/image'

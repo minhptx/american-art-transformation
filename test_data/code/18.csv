@@ -1,9 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Death Year ") == '':
-	    return ""
-	elif '/' in getValue("Death Year "):
-	    return getValue("Death Year ")
-	else:
-	    return  getValue("Death Year ")+"-01-01"
+	return UM.uri_from_fields("object/id/", getValue("ObjectID"))

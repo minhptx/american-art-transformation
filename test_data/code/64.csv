@@ -1,6 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DateEnd") == 0:
-	    return ''
-	return getValue("DateEnd")+"-12-31"
+	return UM.uri_from_fields("thesauri/dimension_unit/",getValue("type")[-2:])

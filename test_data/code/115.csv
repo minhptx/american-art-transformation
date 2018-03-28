@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Object_URL"):
-	    return "http://"+getValue("Object_URL")
-	else:
-	    return ""
+	return UM.uri_from_fields("thesauri/department/",getValue("Department"))

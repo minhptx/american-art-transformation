@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Culture"):
-	    return getValue("ObjectURI")+"/culture_type"
-	else:
-	    return ""
+	return getValue("ObjectURI") + "/description"

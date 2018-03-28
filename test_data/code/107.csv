@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Title")!="Untitled":
-	    return UM.uri_from_fields(getValue("ObjectURI")+"/title/", getValue("TitleID"))
-	else:
-	    return ""
+	return UM.uri_from_fields("thesauri/nationality/",getValue("Nationality"))

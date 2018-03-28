@@ -1,8 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	s = str(getValue("DATE_EARLIEST"))
-	if len(s) == 4:
-	    return s+"-01-01"
-	else:
-	    return ""
+	return getValue("TitleURI") + "/id"

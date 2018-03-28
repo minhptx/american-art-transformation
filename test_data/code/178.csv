@@ -1,7 +1,0 @@
-def transform(a):
-	global x
-	x = a
-	if getValue("ConstituentEndDate") and getValue("ConstituentEndDate")!="0":
-	    return getValue("ConstituentURI")+"/death"
-	else:
-	    return ""

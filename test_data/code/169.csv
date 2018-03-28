@@ -1,8 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("ObjectName"):
-	    prefix = getValue("ObjectURI") + "/classification_event"
-	    return prefix
-	else:
-	    return ''
+	return getValue("ObjectURI")+"/object_number"

@@ -1,7 +1,5 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Classification"):
-	    return UM.uri_from_fields("thesauri/classification/",getValue("Classification"))
-	else:
-	    return ""
+	return UM.uri_from_fields("object/", getValue("ObjectID"))
+	

@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("OBJECT_TYPES"):
-	    return getValue("ObjectURI")+"/typeassignment"
-	else:
-	    return ""
+	return getValue("ObjectURI")+"/production"

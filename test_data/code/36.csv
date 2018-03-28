@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("ThesXrefType") == "Gender":
-	    return getValue("Term")
-	else:
-	    return ''
+	return "National Portrait Gallery"

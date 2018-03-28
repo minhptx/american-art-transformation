@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("BirthYear") != '':
-	    return getValue("BirthYear") + "-12-31"
-	else:
-	    return ''
+	return getValue("ConstituentURI")+"/sort_name"

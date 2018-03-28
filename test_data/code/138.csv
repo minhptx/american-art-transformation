@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("MakerID"):
-	    return getValue("MakerURI")+"/pref_id"
-	else:
-	    return ""
+	return "object/" + getValue("ObjectID")

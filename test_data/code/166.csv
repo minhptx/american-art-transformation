@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Materials"):
-	    return getValue("ObjectURI") + "/medium_text"
-	else:
-	    return ''
+	return getValue("ConstituentEndDate")+"-01-01"

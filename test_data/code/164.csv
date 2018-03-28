@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Measurements"):
-	    return getValue("ObjectURI") + "/dimensions_text"
-	else:
-	    return ''
+	return getValue("EndDateValid")+" to " + getValue("DeathDateEnd")

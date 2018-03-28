@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("NameTitle"):
-	    return getValue("URI")+"/prefix"
-	else:
-	    return ""
+	return 'constituent/id/'+getValue("ConstituentID")

@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DateDescription") == "Birth Date":
-	    return getValue("DateBegSearch") + "-01-01"
-	else:
-	    return ""
+	return "object/id/"+getValue("ObjectNumber").replace(".","_").replace(",","_")

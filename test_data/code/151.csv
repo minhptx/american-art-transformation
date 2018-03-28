@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if (getValue("Nationality") != "NULL") and (getValue("Nationality") != ''):
-	    return UM.uri_from_fields("thesauri/nationality/", getValue("Nationality"))
-	else:
-	    return ''
+	return getValue("ConstituentURI")+"/name"

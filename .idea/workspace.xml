@@ -1,7 +1,812 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="daa78893-6555-47d0-8d84-d20ab39eed37" name="Default" comment="" />
+    <list default="true" id="daa78893-6555-47d0-8d84-d20ab39eed37" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/american-art.iml" afterPath="$PROJECT_DIR$/.idea/american-art.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/data/DMA" afterPath="$PROJECT_DIR$/data/DMA" />
+      <change beforePath="$PROJECT_DIR$/data/PUAM" afterPath="$PROJECT_DIR$/data/PUAM" />
+      <change beforePath="$PROJECT_DIR$/data/SAAM" afterPath="$PROJECT_DIR$/data/SAAM" />
+      <change beforePath="$PROJECT_DIR$/data/aaa" afterPath="$PROJECT_DIR$/data/aaa" />
+      <change beforePath="$PROJECT_DIR$/data/aac-alignment" afterPath="$PROJECT_DIR$/data/aac-alignment" />
+      <change beforePath="$PROJECT_DIR$/data/cbm" afterPath="$PROJECT_DIR$/data/cbm" />
+      <change beforePath="$PROJECT_DIR$/data/nmwa" afterPath="$PROJECT_DIR$/data/nmwa" />
+      <change beforePath="$PROJECT_DIR$/src/american_transform/uri_manipulation.py" afterPath="$PROJECT_DIR$/src/american_transform/uri_manipulation.py" />
+      <change beforePath="$PROJECT_DIR$/src/extract_transformation.py" afterPath="$PROJECT_DIR$/src/extract_transformation.py" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/0.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/1.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/10.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/100.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/101.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/102.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/103.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/104.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/105.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/106.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/107.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/108.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/109.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/11.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/110.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/111.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/112.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/113.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/114.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/115.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/116.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/117.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/118.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/119.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/12.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/120.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/121.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/122.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/123.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/124.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/125.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/126.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/127.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/128.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/129.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/13.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/130.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/131.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/132.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/133.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/134.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/135.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/136.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/137.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/138.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/139.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/14.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/140.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/141.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/142.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/143.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/144.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/145.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/146.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/147.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/148.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/149.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/15.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/150.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/151.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/152.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/153.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/154.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/155.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/156.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/157.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/158.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/159.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/16.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/160.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/161.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/162.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/163.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/164.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/165.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/166.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/167.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/168.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/169.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/17.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/170.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/171.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/172.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/173.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/174.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/175.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/176.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/177.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/178.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/179.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/18.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/180.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/181.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/182.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/183.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/184.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/185.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/186.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/187.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/188.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/189.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/19.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/190.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/191.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/192.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/193.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/194.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/195.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/196.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/197.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/2.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/20.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/21.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/22.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/23.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/24.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/25.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/26.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/27.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/28.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/29.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/3.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/30.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/31.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/32.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/33.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/34.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/35.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/36.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/37.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/38.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/39.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/4.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/40.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/41.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/42.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/43.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/44.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/45.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/46.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/47.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/48.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/49.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/5.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/50.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/51.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/52.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/53.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/54.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/55.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/56.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/57.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/58.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/59.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/6.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/60.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/61.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/62.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/63.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/64.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/65.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/66.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/67.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/68.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/69.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/7.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/70.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/71.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/72.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/73.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/74.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/75.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/76.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/77.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/78.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/79.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/8.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/80.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/81.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/82.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/83.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/84.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/85.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/86.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/87.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/88.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/89.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/9.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/90.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/91.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/92.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/93.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/94.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/95.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/96.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/97.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/98.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/code/99.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/0.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/1.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/10.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/100.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/101.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/102.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/103.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/104.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/105.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/106.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/107.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/108.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/109.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/11.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/110.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/111.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/112.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/113.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/114.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/115.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/116.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/117.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/118.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/119.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/12.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/120.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/121.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/122.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/123.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/124.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/125.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/126.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/127.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/128.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/129.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/13.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/130.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/131.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/132.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/133.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/134.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/135.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/136.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/137.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/138.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/139.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/14.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/140.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/141.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/142.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/143.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/144.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/145.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/146.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/147.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/148.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/149.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/15.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/150.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/151.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/152.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/153.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/154.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/155.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/156.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/157.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/158.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/159.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/16.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/160.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/161.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/162.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/163.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/164.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/165.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/166.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/167.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/168.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/169.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/17.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/170.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/171.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/172.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/173.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/174.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/175.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/176.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/177.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/178.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/179.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/18.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/180.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/181.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/182.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/183.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/184.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/185.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/186.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/187.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/188.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/189.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/19.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/190.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/191.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/192.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/193.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/194.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/195.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/196.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/197.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/2.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/20.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/21.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/22.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/23.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/24.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/25.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/26.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/27.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/28.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/29.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/3.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/30.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/31.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/32.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/33.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/34.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/35.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/36.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/37.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/38.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/39.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/4.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/40.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/41.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/42.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/43.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/44.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/45.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/46.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/47.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/48.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/49.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/5.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/50.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/51.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/52.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/53.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/54.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/55.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/56.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/57.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/58.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/59.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/6.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/60.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/61.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/62.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/63.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/64.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/65.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/66.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/67.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/68.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/69.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/7.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/70.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/71.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/72.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/73.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/74.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/75.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/76.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/77.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/78.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/79.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/8.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/80.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/81.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/82.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/83.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/84.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/85.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/86.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/87.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/88.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/89.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/9.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/90.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/91.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/92.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/93.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/94.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/95.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/96.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/97.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/98.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/groundtruth/99.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/0.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/1.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/10.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/100.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/101.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/102.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/103.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/104.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/105.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/106.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/107.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/108.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/109.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/11.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/110.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/111.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/112.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/113.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/114.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/115.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/116.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/117.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/118.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/119.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/12.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/120.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/121.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/122.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/123.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/124.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/125.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/126.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/127.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/128.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/129.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/13.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/130.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/131.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/132.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/133.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/134.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/135.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/136.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/137.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/138.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/139.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/14.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/140.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/141.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/142.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/143.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/144.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/145.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/146.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/147.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/148.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/149.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/15.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/150.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/151.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/152.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/153.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/154.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/155.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/156.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/157.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/158.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/159.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/16.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/160.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/161.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/162.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/163.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/164.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/165.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/166.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/167.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/168.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/169.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/17.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/170.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/171.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/172.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/173.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/174.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/175.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/176.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/177.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/178.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/179.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/18.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/180.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/181.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/182.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/183.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/184.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/185.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/186.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/187.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/188.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/189.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/19.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/190.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/191.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/192.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/193.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/194.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/195.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/196.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/197.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/2.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/20.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/21.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/22.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/23.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/24.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/25.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/26.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/27.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/28.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/29.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/3.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/30.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/31.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/32.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/33.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/34.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/35.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/36.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/37.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/38.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/39.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/4.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/40.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/41.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/42.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/43.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/44.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/45.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/46.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/47.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/48.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/49.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/5.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/50.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/51.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/52.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/53.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/54.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/55.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/56.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/57.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/58.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/59.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/6.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/60.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/61.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/62.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/63.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/64.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/65.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/66.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/67.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/68.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/69.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/7.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/70.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/71.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/72.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/73.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/74.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/75.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/76.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/77.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/78.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/79.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/8.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/80.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/81.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/82.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/83.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/84.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/85.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/86.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/87.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/88.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/89.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/9.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/90.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/91.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/92.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/93.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/94.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/95.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/96.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/97.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/98.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/raw/99.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/0.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/1.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/10.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/100.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/101.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/102.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/103.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/104.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/105.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/106.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/107.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/108.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/109.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/11.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/110.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/111.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/112.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/113.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/114.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/115.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/116.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/117.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/118.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/119.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/12.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/120.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/121.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/122.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/123.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/124.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/125.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/126.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/127.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/128.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/129.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/13.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/130.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/131.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/132.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/133.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/134.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/135.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/136.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/137.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/138.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/139.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/14.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/140.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/141.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/142.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/143.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/144.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/145.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/146.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/147.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/148.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/149.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/15.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/150.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/151.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/152.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/153.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/154.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/155.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/156.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/157.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/158.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/159.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/16.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/160.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/161.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/162.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/163.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/164.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/165.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/166.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/167.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/168.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/169.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/17.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/170.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/171.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/172.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/173.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/174.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/175.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/176.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/177.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/178.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/179.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/18.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/180.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/181.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/182.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/183.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/184.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/185.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/186.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/187.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/188.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/189.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/19.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/190.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/191.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/192.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/193.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/194.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/195.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/196.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/197.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/2.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/20.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/21.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/22.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/23.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/24.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/25.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/26.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/27.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/28.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/29.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/3.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/30.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/31.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/32.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/33.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/34.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/35.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/36.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/37.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/38.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/39.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/4.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/40.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/41.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/42.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/43.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/44.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/45.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/46.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/47.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/48.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/49.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/5.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/50.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/51.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/52.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/53.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/54.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/55.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/56.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/57.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/58.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/59.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/6.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/60.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/61.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/62.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/63.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/64.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/65.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/66.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/67.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/68.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/69.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/7.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/70.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/71.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/72.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/73.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/74.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/75.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/76.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/77.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/78.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/79.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/8.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/80.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/81.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/82.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/83.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/84.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/85.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/86.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/87.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/88.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/89.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/9.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/90.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/91.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/92.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/93.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/94.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/95.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/96.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/97.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/98.csv" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/test_data/transformed/99.csv" afterPath="" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,9 +815,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/american_art$test.coverage" NAME="test Coverage Results" MODIFIED="1511119410353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/american-transform" />
-    <SUITE FILE_PATH="coverage/american_art$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1513581826566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/american_transform" />
     <SUITE FILE_PATH="coverage/american_art$extract_transformation.coverage" NAME="extract_transformation Coverage Results" MODIFIED="1513628240183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/american_art_transformation$extract_transformation.coverage" NAME="extract_transformation Coverage Results" MODIFIED="1522214381549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/american_art$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1513581826566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/american_transform" />
+    <SUITE FILE_PATH="coverage/american_art$test.coverage" NAME="test Coverage Results" MODIFIED="1511119410353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/american-transform" />
   </component>
   <component name="FileColors">
     <fileColor scope="Non-Project Files (Material Default)" color="2E3C43" />
@@ -22,8 +828,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="10.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/code/10.csv">
+      <file leaf-file-name="5.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/code/5.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -32,8 +838,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="95.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/code/95.csv">
+      <file leaf-file-name="6.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/code/6.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -42,8 +848,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="112.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_data/code/112.csv">
+      <file leaf-file-name="7.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/code/7.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -52,8 +858,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="13.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/code/13.csv">
+      <file leaf-file-name="8.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/code/8.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -62,38 +868,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="14.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/code/14.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="15.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/code/15.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="47" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="0.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/code/0.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="6" column="17" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="1.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/raw/1.csv">
+      <file leaf-file-name="9.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_data/code/9.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -112,11 +888,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="10.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/raw/10.csv">
+      <file leaf-file-name="0.csv" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test_data/transformed/0.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="12" column="180" lean-forward="false" selection-start-line="12" selection-start-column="180" selection-end-line="12" selection-end-column="180" />
+            <state relative-caret-position="-1801">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extract_transformation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/extract_transformation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-404">
+              <caret line="182" column="37" lean-forward="false" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample_data.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample_data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10667">
+              <caret line="622" column="50" lean-forward="false" selection-start-line="622" selection-start-column="50" selection-end-line="622" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uri_manipulation.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/american_transform/uri_manipulation.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,7 +939,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</find>
       <find>MaterialURI</find>
       <find>transform</find>
       <find>UM.</find>
@@ -163,6 +968,7 @@
       <find>National Museum of Wildlife Art</find>
       <find>try</find>
       <find>if</find>
+      <find>uri_from</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;&quot;</replace>
@@ -172,7 +978,12 @@
       <dir>$PROJECT_DIR$/src/american-transform</dir>
       <dir>$PROJECT_DIR$/data</dir>
       <dir>$PROJECT_DIR$/data/cbm</dir>
+      <dir>$PROJECT_DIR$/test_data</dir>
+      <dir>$PROJECT_DIR$/test_data/code</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -196,8 +1007,10 @@
         <option value="$PROJECT_DIR$/src/american_transform/test.py" />
         <option value="$USER_HOME$/anaconda/envs/py3/lib/python3.6/site-packages/jellyfish/_jellyfish.py" />
         <option value="$USER_HOME$/anaconda/lib/python2.7/site-packages/jellyfish/_jellyfish.py" />
-        <option value="$PROJECT_DIR$/src/extract_transformation.py" />
         <option value="$PROJECT_DIR$/test_data/raw/10.csv" />
+        <option value="$PROJECT_DIR$/sample_data.txt" />
+        <option value="$PROJECT_DIR$/src/american_transform/uri_manipulation.py" />
+        <option value="$PROJECT_DIR$/src/extract_transformation.py" />
       </list>
     </option>
   </component>
@@ -237,6 +1050,9 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -253,28 +1069,34 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="american-art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="american-art" type="462c0819:PsiDirectoryNode" />
+              <item name="american-art-transformation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="american-art-transformation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="american-art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="american-art" type="462c0819:PsiDirectoryNode" />
+              <item name="american-art-transformation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="american-art-transformation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="american-art" type="b2602c69:ProjectViewProjectNode" />
-              <item name="american-art" type="462c0819:PsiDirectoryNode" />
+              <item name="american-art-transformation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="american-art-transformation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="american_transform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="american-art-transformation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="american-art-transformation" type="462c0819:PsiDirectoryNode" />
               <item name="test_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -319,9 +1141,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="american-art" />
@@ -453,15 +1275,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="773" extended-state="6" />
+    <frame x="0" y="30" width="1920" height="965" extended-state="6" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3181818" sideWeight="0.50858366" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31563422" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31233597" sideWeight="0.4914163" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22818312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25484914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -495,126 +1317,14 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/2.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/4.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/5.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/6.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/7.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3910">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/8.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/25.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/0.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/raw/14.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/14.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/raw/13.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/13.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="46" column="2" lean-forward="true" selection-start-line="46" selection-start-column="2" selection-end-line="46" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/code/25.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/0.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/raw/14.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/14.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/raw/13.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/13.csv" />
     <entry file="file://$PROJECT_DIR$/src/american_transform/test/__init__.py" />
-    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/jellyfish/_jellyfish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda/lib/python2.7/site-packages/jellyfish/_jellyfish.py" />
     <entry file="file://$PROJECT_DIR$/src/american_transform/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
@@ -622,56 +1332,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda/envs/py3/lib/python3.6/site-packages/jellyfish/_jellyfish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1701">
-          <caret line="84" column="38" lean-forward="false" selection-start-line="84" selection-start-column="38" selection-end-line="84" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/raw/11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/9.csv">
+    <entry file="file://$USER_HOME$/anaconda/envs/py3/lib/python3.6/site-packages/jellyfish/_jellyfish.py" />
+    <entry file="file://$PROJECT_DIR$/test_data/raw/11.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/11.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/transformed/9.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/raw/9.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/code/39.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/transformed/11.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/code/11.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/code/12.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/code/13.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/code/14.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/code/15.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/raw/1.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/code/94.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/code/95.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/code/112.csv" />
+    <entry file="file://$PROJECT_DIR$/test_data/code/175.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/raw/9.csv">
+    <entry file="file://$PROJECT_DIR$/test_data/code/174.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1845">
-          <caret line="56" column="37" lean-forward="true" selection-start-line="56" selection-start-column="37" selection-end-line="56" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/39.csv">
+    <entry file="file://$PROJECT_DIR$/test_data/code/173.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/transformed/11.csv">
+    <entry file="file://$PROJECT_DIR$/test_data/code/172.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/code/171.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/code/170.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -685,6 +1397,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/raw/10.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/groundtruth/10.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/american_transform/aggregations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/code/1.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test_data/code/2.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -692,24 +1432,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/extract_transformation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="206" column="90" lean-forward="false" selection-start-line="206" selection-start-column="83" selection-end-line="206" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="42" lean-forward="false" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_data/code/3.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -717,13 +1444,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_data/code/5.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -731,6 +1460,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -738,6 +1468,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -745,65 +1476,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/9.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/11.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/12.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/13.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/14.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/15.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="47" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="8" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_data/code/0.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="88">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample_data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10667">
+          <caret line="622" column="50" lean-forward="false" selection-start-line="622" selection-start-column="50" selection-end-line="622" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/raw/1.csv">
+    <entry file="file://$PROJECT_DIR$/src/american_transform/uri_manipulation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/extract_transformation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-404">
+          <caret line="182" column="37" lean-forward="false" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/code/10.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="29" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_data/code/9.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -819,41 +1535,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/raw/10.csv">
+    <entry file="file://$PROJECT_DIR$/test_data/transformed/0.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="12" column="180" lean-forward="false" selection-start-line="12" selection-start-column="180" selection-end-line="12" selection-end-column="180" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/10.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/94.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/95.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/code/112.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-1801">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>

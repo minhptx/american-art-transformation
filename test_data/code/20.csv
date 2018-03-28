@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Nationality "):
-	    return UM.uri_from_fields("thesauiri/nationality/",getValue("Nationality "))
-	else:
-	    return ""
+	return getValue("ImageURI") + "/CreditLine"

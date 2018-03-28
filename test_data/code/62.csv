@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Medium"):
-	    return getValue("ObjectURI") + "/medium_text"
-	else:
-	    return ''
+	return getValue("ObjectURI")+"/"+getValue("Element")+"/dimension/"+getValue("DimensionType").lower()

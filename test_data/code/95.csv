@@ -1,20 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	c = str(getValue("City"))
-	s = str(getValue("State"))
-	co = str(getValue("Country"))
-	place = ""
-	if c!="":
-	    place += c
-	if s != "":
-	    if place!="":
-	        place += ", "+s
-	    else:
-	        place = s
-	if co != "":
-	    if place!="":
-	        place += ", "+co
-	    else:
-	        place = co
-	return place
+	return getValue("EndDate")+"-12-31"

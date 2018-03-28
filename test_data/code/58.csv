@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Classification"):
-	    return AATTerm.get_aat_uri('npg',getValue("Classification"))
-	else:
-	    return ''
+	return "object/id/"+getValue("objectnumber").replace(".","_").replace(",","_")

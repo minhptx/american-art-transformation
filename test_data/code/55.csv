@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("SitterConstituentURI") or getValue("MakerConstituentURI"):
-	    return getValue("ObjectURI")+"/production"
-	else:
-	    return ""
+	return "object/id/"+getValue("objectnumber").replace(".","_").replace(",","_")

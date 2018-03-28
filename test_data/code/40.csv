@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Gender"):
-	    return getValue("GenderClassURI") + "/type"
-	else:
-	    return ''
+	return getValue("ObjectURI")+"/dimension_text"

@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("StartDateFormatted") or getValue("EndDateFormatted"):
-	    return getValue("StartDateFormatted") + " to " + getValue("EndDateFormatted")
-	else:
-	    return ""
+	return "object/" + getValue("ObjectID")

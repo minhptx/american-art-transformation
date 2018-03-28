@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Gender"):
-	    return "http://vocab.getty.edu/aat/300055147"
-	else:
-	    return ''
+	return "object/"+getValue("ObjectID")

@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Description"):
-	    return getValue("ObjectURI")+"/description"
-	else:
-	    return ""
+	return getValue("ConstituentURI")+"/death"

@@ -1,13 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	time = getValue("Dates").replace(' ', '').lower()
-	dash_index = time.find('-')
-	
-	if (time == 'NULL') or ('founded' in time) or ('circa' in time) or ('active' in time) or ('established' in time) or ('born' in time):
-	    return ''
-	
-	if dash_index != -1:
-	    return time[dash_index+1:dash_index+5]
-	
-	return ''
+	return getValue("ConstituentURI")+"/name"

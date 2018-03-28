@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Dated"):
-	    return getValue("ObjectURI") + "/timespan"
-	else:
-	    return ""
+	return UM.uri_from_fields("object/", getValue("ObjectID"))

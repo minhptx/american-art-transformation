@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("ULAN_ID"):
-	    return "http://vocab.getty.edu/ulan/"+getValue("ULAN_ID")
-	else:
-	    return ""
+	return "constituent/"+getValue("ConstituentID")

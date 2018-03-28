@@ -1,8 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("SitterConstituentID"):
-	    return UM.uri_from_fields("person-institution/", getValue("SitterConstituentID"))
-	else:
-	    return ''
-	
+	return UM.uri_from_fields("thesauri/name_type/",getValue("NameType"))

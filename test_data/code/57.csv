@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("ObjectNumber"):
-	    return "aat:300404670"
-	else:
-	    return ''
+	return getValue("URI")+"/production"

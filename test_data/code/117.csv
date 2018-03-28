@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DIMTYPE"):
-	    return UM.uri_from_fields(getValue("ObjectURI")+"/",getValue("DIMTYPE"))
-	else:
-	    return ""
+	return UM.uri_from_fields("thesauiri/material/",getValue("Medium"))

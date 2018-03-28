@@ -49,7 +49,7 @@ class UM(object):
     def uri_from_fields(prefix, *fields):
         """Construct a URI out of the fields, concatenating them after removing offensive characters.
         When all the fields are empty, return empty"""
-        string = '_'.join(SM.alpha_numeric(f.strip().lower(), '') for f in fields)
+        string = '_'.join(f.strip() for f in fields)
 
         if len(string) == len(fields)-1:
             return ''

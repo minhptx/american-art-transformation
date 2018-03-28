@@ -1,6 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DateBegin") == 0:
-	    return ''
-	return getValue("DateBegin")+"-01-01"
+	return UM.uri_from_fields(getValue("ObjectURI")+"/",getValue("Element"))

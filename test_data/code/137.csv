@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("MakerID") != 'NULL':
-	    return  UM.uri_from_fields("maker/", getValue("MakerID"))
-	else:
-	    return ''
+	return getValue("ObjectURI")+"/production"

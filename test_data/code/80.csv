@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DateDescription") == "Death Date":
-	    return getValue("DateBegSearch") + "-01-01"
-	else:
-	    return ""
+	return UM.uri_from_fields("thesauri/nationality/",getValue("Nationality"))

@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("BeginDateValid"):
-	    return getValue("BeginDateValid") + " to " + getValue("EndDateValid")
-	else:
-	    return ""
+	return UM.uri_from_fields("thesauri/culture/",getValue("Culture"))

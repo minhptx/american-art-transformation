@@ -1,7 +1,0 @@
-def transform(a):
-	global x
-	x = a
-	if getValue("Role")=="Depicted individual":
-	    return "constituent/"+SM.fingerprint_string(getValue("DisplayName"))
-	else:
-	    return ""

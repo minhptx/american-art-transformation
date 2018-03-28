@@ -177,51 +177,67 @@ if __name__ == "__main__":
     if not os.path.exists("test_data/groundtruth"):
         os.makedirs("test_data/groundtruth")
 
-    for inout_pair in inout_list:
-        if "if" not in inout_pair["code"]: continue
-        in_list = inout_pair["input"]
-        out_list = inout_pair["output"]
+    with open("sample_data.txt", "w") as s_writer:
 
-        assert len(in_list) == len(out_list)
-        if len(in_list) > 400:
-            size = 200
-        else:
-            size = len(in_list) // 2
-        train_indices = random.choice(range(len(in_list)), size, replace=False)
+        for inout_pair in inout_list:
+            print(inout_pair["code"])
+            if "if" in inout_pair["code"]:
+                continue
 
-        train_in_list = []
-        train_out_list = []
+            # if "uri_from_fields" not in inout_pair["code"]:
+            #     continue
 
-        for indx in train_indices:
-            train_out_list.append(out_list[indx])
 
-        for indx in sorted(train_indices, reverse=True):
-            print(indx, len(in_list), len(out_list))
-            del in_list[indx]
-            del out_list[indx]
+            in_list = inout_pair["input"]
+            out_list = inout_pair["output"]
 
-        if in_list == out_list:
-            continue
-        with codecs.open("test_data/raw/%s.csv" % file_id, "w", encoding="utf-8") as writer:
-            if inout_pair["input"]:
-                writer.write("\n".join(['"%s"' % str(x).replace('"', ",") for x in in_list]))
+            for i in range(5):
+                index = random.choice(len(in_list))
+                s_writer.write('"%s","%s"\n' % (in_list[index], out_list[index]))
+
+            s_writer.write("---------------------------------------------------------------------------------------\n")
+
+
+            assert len(in_list) == len(out_list)
+            if len(in_list) > 400:
+                size = 200
             else:
-                writer.write("")
-        with open("test_data/transformed/%s.csv" % file_id, "w", encoding="utf-8") as writer:
-            if inout_pair["output"]:
-                writer.write("\n".join(['"%s"' % str(x).replace('"', ",") for x in train_out_list]))
-            else:
-                writer.write("")
+                size = len(in_list) // 2
+            train_indices = random.choice(range(len(in_list)), size, replace=False)
 
-        with open("test_data/groundtruth/%s.csv" % file_id, "w", encoding="utf-8") as writer:
-            if inout_pair["output"]:
-                writer.write("\n".join(['"%s"' % str(x).replace('"', ",") for x in out_list]))
-            else:
-                writer.write("")
+            train_in_list = []
+            train_out_list = []
 
-        with open("test_data/code/%s.csv" % file_id, "w", encoding="utf-8") as writer:
-            if inout_pair["code"]:
-                writer.write(inout_pair["code"])
-            else:
-                writer.write("")
-        file_id += 1
+            for indx in train_indices:
+                train_out_list.append(out_list[indx])
+
+            for indx in sorted(train_indices, reverse=True):
+                print(indx, len(in_list), len(out_list))
+                del in_list[indx]
+                del out_list[indx]
+
+            if in_list == out_list:
+                continue
+            with codecs.open("test_data/raw/%s.csv" % file_id, "w", encoding="utf-8") as writer:
+                if inout_pair["input"]:
+                    writer.write("\n".join(['"%s"' % str(x).replace('"', ",") for x in in_list]))
+                else:
+                    writer.write("")
+            with open("test_data/transformed/%s.csv" % file_id, "w", encoding="utf-8") as writer:
+                if inout_pair["output"]:
+                    writer.write("\n".join(['"%s"' % str(x).replace('"', ",") for x in train_out_list]))
+                else:
+                    writer.write("")
+
+            with open("test_data/groundtruth/%s.csv" % file_id, "w", encoding="utf-8") as writer:
+                if inout_pair["output"]:
+                    writer.write("\n".join(['"%s"' % str(x).replace('"', ",") for x in out_list]))
+                else:
+                    writer.write("")
+
+            with open("test_data/code/%s.csv" % file_id, "w", encoding="utf-8") as writer:
+                if inout_pair["code"]:
+                    writer.write(inout_pair["code"])
+                else:
+                    writer.write("")
+            file_id += 1

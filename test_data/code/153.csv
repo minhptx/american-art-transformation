@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("EARLIEST_YEAR"):
-	    return getValue("ProductionURI") + "/timespan"
-	else:
-	    return ""
+	return "thesauri/name_type/middle_name"

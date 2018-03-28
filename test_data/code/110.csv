@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Role") == "Depicted":
-	    return "constituent/"+getValue("ConstituentID")
-	else:
-	    return ""
+	return getValue("URI")+"/pref_id"

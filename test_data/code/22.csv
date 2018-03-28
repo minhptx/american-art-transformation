@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("ThesXrefType") in ["Medium","Support"]:
-	    return UM.uri_from_fields("thesauri/material/",getValue("Term"))
-	else:
-	    return ""
+	return UM.uri_from_fields("object/", getValue("ObjectID"))

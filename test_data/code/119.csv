@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("WIDTH"):
-	    return getValue("PartURI")+"/dimension/width"
-	else:
-	    return ""
+	return "http://data.americanartcollaborative.org/nmwa"

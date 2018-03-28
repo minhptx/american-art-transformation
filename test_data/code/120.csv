@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("DEPTH"):
-	    return getValue("PartURI")+"/dimension/depth"
-	else:
-	    return ""
+	return "constituent/"+SM.fingerprint_string(getValue("Display Name"))

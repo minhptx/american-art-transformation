@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("RIGHTS"):
-	    return getValue("ObjectURI")+"/rights"
-	else:
-	    return ""
+	return "object/"+getValue("ObjectID")

@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Birth Year") == '':
-	    return ""
-	else:
-	    return getValue("ConstituentURI")+"/birth"
+	return UM.uri_from_fields("object/", getValue("ObjectID"))

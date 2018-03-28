@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("ObjectName"):
-	    return AATTerm.get_aat_uri("autry",getValue("ObjectName"))
-	else:
-	    return ''
+	return UM.uri_from_fields("thesauri/material/",getValue("Medium"))

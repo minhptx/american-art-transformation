@@ -1,4 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	return AATTerm.get_aat_uri("gm",getValue("Classification"))
+	return "http://data.americanartcollaborative.org/dma"

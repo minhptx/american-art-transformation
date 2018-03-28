@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("FirstName"):
-	    return getValue("URI")+"/first_name"
-	else:
-	    return ""
+	return getValue("EndDate")+"-01-01"

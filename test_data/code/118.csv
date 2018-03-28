@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("HEIGHT"):
-	    return getValue("PartURI")+"/dimension/height"
-	else:
-	    return ""
+	return getValue("ObjectURI")+"/dimension"

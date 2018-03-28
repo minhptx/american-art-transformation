@@ -1,7 +1,8 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("WEIGHTUNIT"):
-	    return UM.uri_from_fields("/thesauri/dimensionunit/",getValue("WEIGHTUNIT"))
-	else:
-	    return ""
+	x = getValue("AccessionNo")
+	x = SM.alpha_numeric(SM.ascii_chars(x)).lower()
+	y = list(x.split())
+	y = '_'.join(y)
+	return "object/" + y

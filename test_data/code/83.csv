@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("Role") in ["Artist","Author","Designer"] and getValue("DisplayName")!="Unidentified":
-	    return "constituent/id/"+getValue("ConstituentID")
-	else:
-	    return ""
+	return getValue("ConstituentURI")+"/birth"

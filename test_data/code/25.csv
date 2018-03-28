@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("ThesXrefType")=="Execution place":
-	    return getValue("ObjectURI")+"/production"
-	else:
-	    return ""
+	return getValue("TitleURI")+"/title_type"

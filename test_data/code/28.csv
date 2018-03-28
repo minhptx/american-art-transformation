@@ -1,7 +1,4 @@
 def transform(a):
 	global x
 	x = a
-	if getValue("ThesXrefType") in ["Medium","Support"]:
-	    return getValue("Term")
-	else:
-	    return ""
+	return "http://vocab.getty.edu/aat/300404621"
